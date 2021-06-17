@@ -27,13 +27,12 @@
 
 - O resultado final consiste na seguinte interface:
 
-  ![swagger_bean](C:\Users\lucia\Java\Project_Git\api-empresa\images\swagger_bean.png)
+  ![swagger_bean](images/swagger_bean.png)
 
 - Já no banco de dados teremos como resultado:
 
-  ![bdh2](C:\Users\lucia\Java\Project_Git\api-empresa\images\bdh2.png)
-  
-  
+  ![bdh2](images/swagger_bean.png)
+
   - Aqui Criamos um exemplo, no entanto, como pode ser visto o exemplo foi feito antes de adicionar as anotações para CPF e CNPJ.
 
 ### Sobre as Camadas
