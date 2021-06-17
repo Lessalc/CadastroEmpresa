@@ -20,6 +20,7 @@ public class SocioDTO {
     private String sobrenome;
 
     @NotEmpty
+    @CPF
     private String cpf;
 
     public SocioDTO(){}

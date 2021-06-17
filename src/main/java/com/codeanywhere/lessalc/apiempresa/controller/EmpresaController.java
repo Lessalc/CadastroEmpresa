@@ -46,6 +46,7 @@ public class EmpresaController {
 
     // *********** Alterando Dados ***********
     @PutMapping("/{id}")
+    @ResponseStatus(HttpStatus.OK)
     public MessageResponseDTO updateById(@PathVariable Long id, @RequestBody @Valid EmpresaDTO empresaDTO) throws EmpresaNotFoundException {
         return empresaService.updateById(id, empresaDTO);
     }
@@ -53,6 +54,7 @@ public class EmpresaController {
     // *********** Deletando Dados ***********
 
     @DeleteMapping("/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deleteById(@PathVariable Long id) throws EmpresaNotFoundException {
         empresaService.deleteById(id);
     }

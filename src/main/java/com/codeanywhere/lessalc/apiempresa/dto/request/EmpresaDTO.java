@@ -20,6 +20,7 @@ public class EmpresaDTO {
     private String nome;
 
     @NotEmpty
+    @CNPJ
     private String cnpj;
 
     private String criacao;
