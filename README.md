@@ -31,7 +31,7 @@
 
 - Já no banco de dados teremos como resultado:
 
-  ![bdh2](images/swagger_bean.png)
+  ![bdh2](images/bdh2.png)
 
   - Aqui Criamos um exemplo, no entanto, como pode ser visto o exemplo foi feito antes de adicionar as anotações para CPF e CNPJ.
 
