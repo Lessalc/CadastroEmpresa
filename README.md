@@ -68,7 +68,7 @@
 {
 "nome": "LessaCompany",
   "cnpj": "22.458.637/0001-84",
-  "criacao": "13/06/2021",
+  "criacao": "13-06-2021",
   "endereco": {
     "logradouro": "Rua XXV",
     "numero": "999",
