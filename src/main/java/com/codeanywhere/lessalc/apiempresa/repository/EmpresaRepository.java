@@ -10,6 +10,6 @@ public interface EmpresaRepository extends JpaRepository<Empresa, Long> {
 
     @Query("SELECT empresa "+
             "FROM Empresa empresa "+
-            "WHERE empresa.cnpj = :cnpj")
-    Optional<Empresa> findByCnpj(String cnpj);
+            "WHERE empresa.nome = :nome")
+    Optional<Empresa> findByNome(String nome);
 }
